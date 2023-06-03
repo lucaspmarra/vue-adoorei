@@ -4,6 +4,6 @@ import LoginCardVue from '../components/LoginCard.vue';
 
 <template>
   <main>
-<LoginCardVue/>
+    <LoginCardVue />
   </main>
 </template>
