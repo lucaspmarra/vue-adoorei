@@ -12,6 +12,4 @@ export default defineComponent({
     alt="Imagem referente ao vídeo">
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

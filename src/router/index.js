@@ -1,8 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../pages/HomeView.vue';
 
-import LoginLayout from '../layouts/LoginLayout.vue';
 import DefaultLayout from '../layouts/DefaultLayout.vue';
+import LoginLayout from '../layouts/LoginLayout.vue';
+import RegisterLayout from '../layouts/RegisterLayout.vue';
+
+
+import HomeView from '../pages/HomePage.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,10 +17,16 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
+      path: '/painel',
+      name: 'painel',
       meta: { layout: DefaultLayout },
-      component: () => import('../pages/DashboardView.vue')
+      component: () => import('../pages/DashboardPage.vue')
+    },
+    {
+      path: '/registro',
+      name: 'registro',
+      meta: { layout: RegisterLayout },
+      component: () => import('../pages/RegisterPage.vue')
     }
   ]
 });

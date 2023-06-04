@@ -1,5 +1,5 @@
 <script setup>
-import LoginCardVue from '../components/LoginCard.vue';
+import LoginCardVue from '../components/login/LoginCard.vue';
 </script>
 
 <template>

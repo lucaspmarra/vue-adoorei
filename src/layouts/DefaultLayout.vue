@@ -1,12 +1,10 @@
 <script setup>
-import NavbarComponent from '../components/NavbarComponent.vue';
-
-
+import RootNavbar from '../components/root/RootNavbar.vue';
 </script>
 
 <template>
-  <NavbarComponent />
-  <div class="flex flex-col min-h-screen overflow-hidden">
+  <RootNavbar />
+  <div class="flex flex-col overflow-hidden">
     <RouterView />
   </div>
 </template>

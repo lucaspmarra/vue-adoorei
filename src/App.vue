@@ -1,10 +1,9 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-    <div>
-        <component :is="this.$route.meta.layout || 'div'">
-            <RouterView />
-        </component>
-    </div>
+  <div>
+    <component :is="this.$route.meta.layout || 'div'">
+      <RouterView />
+    </component>
+  </div>
 </template>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "hospedagem 1",
+        "price": "grátis",
+        "billing": "você não paga nada para usar",
+        "setup": "sem taxa de setup",
+        "use-case": "ideal para quem está começando",
+        "location": "seu site em servidores nos estados unidos",
+        "description": [
+            "servidores em nossos data centers americanos",
+            "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0",
+            "1 usuários de ftp apra upload ou download",
+            "1 contas de e-mails",
+            "1 subdomínio gratuito"
+        ],
+        "support": "suporte 24 horas, 7 dias por semana grátis",
+        "apps": [
+            "wordpress",
+            "drupal",
+            "entre outros..."
+        ],
+        "migration": null,
+        "extra": [
+            "webmail roundcube",
+            "antispam",
+            "painel de gerencimento de dns",
+            "painel de controle web",
+            "configurações de php personalizáveis",
+            "certificado ssl grátis",
+            "transferência ilimitada"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "hospedagem 2",
+        "price": "499",
+        "billing": "cobrado mensalmente",
+        "setup": "sem taxa de setup",
+        "use-case": "ideal para site com mais mais de 30k de visitas",
+        "location": "seu site em servidores no Brasil",
+        "description": [
+            "servidores em nosso data center de são paulo",
+            "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0",
+            "10 usuários de ftp apra upload ou download",
+            "30 contas de e-mails",
+            "10 subdomínios gratuitos"
+        ],
+        "support": "suporte 24 horas, 7 dias por semana grátis",
+        "apps": [
+            "wordpress",
+            "drupal",
+            "entre outros..."
+        ],
+        "migration": "migramos todos seus sites para nossos servidores",
+        "extra": [
+            "webmail roundcube",
+            "antispam",
+            "painel de gerencimento de dns",
+            "painel de controle web",
+            "configurações de php personalizáveis",
+            "certificado ssl grátis",
+            "transferência ilimitada"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "hospedagem 3",
+        "price": "999",
+        "billing": "cobrado mensalmente",
+        "setup": "sem taxa de setup",
+        "use-case": "ideal para site com mais mais de 60k de visitas",
+        "location": "seu site em servidores no Brasil",
+        "description": [
+            "servidores em nosso data center de são paulo",
+            "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0",
+            "ilimitados usuários de ftp apra upload ou download",
+            "ilimitadas contas de e-mails",
+            "50 subdomínios gratuitos"
+        ],
+        "support": "suporte 24 horas, 7 dias por semana grátis",
+        "apps": [
+            "wordpress",
+            "drupal",
+            "entre outros..."
+        ],
+        "migration": "migramos todos seus sites para nossos servidores",
+        "extra": [
+            "webmail roundcube",
+            "antispam",
+            "painel de gerencimento de dns",
+            "painel de controle web",
+            "configurações de php personalizáveis",
+            "certificado ssl grátis",
+            "transferência ilimitada"
+        ]
+    }
+]
