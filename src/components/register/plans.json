@@ -8,91 +8,299 @@
         "use-case": "ideal para quem está começando",
         "location": "seu site em servidores nos estados unidos",
         "description": [
-            "servidores em nossos data centers americanos",
-            "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0",
-            "1 usuários de ftp apra upload ou download",
-            "1 contas de e-mails",
-            "1 subdomínio gratuito"
+            {
+                "title": "descrição"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "servidores em nossos data centers americanos"
+                    },
+                    {
+                        "id": 2,
+                        "text": "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0"
+                    },
+                    {
+                        "id": 3,
+                        "text": "1 usuários de ftp apra upload ou download"
+                    },
+                    {
+                        "id": 4,
+                        "text": "1 contas de e-mails"
+                    },
+                    {
+                        "id": 5,
+                        "text": "1 subdomínio gratuitos"
+                    }
+                ]
+            }
         ],
         "support": "suporte 24 horas, 7 dias por semana grátis",
         "apps": [
-            "wordpress",
-            "drupal",
-            "entre outros..."
+            {
+                "title": "aplicativos disponíveis"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "wordpress"
+                    },
+                    {
+                        "id": 2,
+                        "text": "drupal"
+                    },
+                    {
+                        "id": 3,
+                        "text": "entre outros..."
+                    }
+                ]
+            }
         ],
-        "migration": null,
+        "migrations": null,
         "extra": [
-            "webmail roundcube",
-            "antispam",
-            "painel de gerencimento de dns",
-            "painel de controle web",
-            "configurações de php personalizáveis",
-            "certificado ssl grátis",
-            "transferência ilimitada"
+            {
+                "title": "você ainda tem"
+            },
+            {
+                "items": [
+                    {
+                        "id": 2,
+                        "text": "webmail roundcube"
+                    },
+                    {
+                        "id": 3,
+                        "text": "antispam"
+                    },
+                    {
+                        "id": 4,
+                        "text": "painel de gerencimento de dns"
+                    },
+                    {
+                        "id": 5,
+                        "text": "painel de controle web"
+                    },
+                    {
+                        "id": 6,
+                        "text": "configurações de php personalizáveis"
+                    },
+                    {
+                        "id": 7,
+                        "text": "certificado ssl grátis"
+                    },
+                    {
+                        "id": 8,
+                        "text": "transferência ilimitada"
+                    }
+                ]
+            }
         ]
     },
     {
         "id": 2,
         "name": "hospedagem 2",
-        "price": "499",
+        "price": 499,
         "billing": "cobrado mensalmente",
         "setup": "sem taxa de setup",
         "use-case": "ideal para site com mais mais de 30k de visitas",
         "location": "seu site em servidores no Brasil",
         "description": [
-            "servidores em nosso data center de são paulo",
-            "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0",
-            "10 usuários de ftp apra upload ou download",
-            "30 contas de e-mails",
-            "10 subdomínios gratuitos"
+            {
+                "title": "descrição"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "servidores em nosso data center de são paulo"
+                    },
+                    {
+                        "id": 2,
+                        "text": "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0"
+                    },
+                    {
+                        "id": 3,
+                        "text": "10 usuários de ftp apra upload ou download"
+                    },
+                    {
+                        "id": 4,
+                        "text": "30 contas de e-mails"
+                    },
+                    {
+                        "id": 5,
+                        "text": "10 subdomínios gratuitos"
+                    }
+                ]
+            }
         ],
         "support": "suporte 24 horas, 7 dias por semana grátis",
         "apps": [
-            "wordpress",
-            "drupal",
-            "entre outros..."
+            {
+                "title": "aplicativos disponíveis"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "wordpress"
+                    },
+                    {
+                        "id": 2,
+                        "text": "drupal"
+                    },
+                    {
+                        "id": 3,
+                        "text": "entre outros..."
+                    }
+                ]
+            }
         ],
-        "migration": "migramos todos seus sites para nossos servidores",
+        "migrations": [
+            {
+                "title": "migração gratuita"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "migramos todos seus sites para nossos servidores"
+                    }
+                ]
+            }
+        ],
         "extra": [
-            "webmail roundcube",
-            "antispam",
-            "painel de gerencimento de dns",
-            "painel de controle web",
-            "configurações de php personalizáveis",
-            "certificado ssl grátis",
-            "transferência ilimitada"
+            {
+                "id": 1,
+                "text": "webmail roundcube"
+            },
+            {
+                "id": 2,
+                "text": "antispam"
+            },
+            {
+                "id": 3,
+                "text": "painel de gerencimento de dns"
+            },
+            {
+                "id": 4,
+                "text": "painel de controle web"
+            },
+            {
+                "id": 5,
+                "text": "configurações de php personalizáveis"
+            },
+            {
+                "id": 6,
+                "text": "certificado ssl grátis"
+            },
+            {
+                "id": 7,
+                "text": "transferência ilimitada"
+            }
         ]
     },
     {
         "id": 3,
         "name": "hospedagem 3",
-        "price": "999",
+        "price": 999,
         "billing": "cobrado mensalmente",
         "setup": "sem taxa de setup",
         "use-case": "ideal para site com mais mais de 60k de visitas",
         "location": "seu site em servidores no Brasil",
         "description": [
-            "servidores em nosso data center de são paulo",
-            "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0",
-            "ilimitados usuários de ftp apra upload ou download",
-            "ilimitadas contas de e-mails",
-            "50 subdomínios gratuitos"
+            {
+                "title": "descrição"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "servidores em nosso data center de são paulo"
+                    },
+                    {
+                        "id": 2,
+                        "text": "asp, asp.net 2.0/3.0/3.5/4.0/4.5/4.5.1/4.5.2 (medium trust) ou php 5.3, 5.4, 5.5, 5.6 e 7.0"
+                    },
+                    {
+                        "id": 3,
+                        "text": "ilimitados usuários de ftp apra upload ou download"
+                    },
+                    {
+                        "id": 4,
+                        "text": "ilimitadas contas de e-mails"
+                    },
+                    {
+                        "id": 5,
+                        "text": "50 subdomínios gratuitos"
+                    }
+                ]
+            }
         ],
         "support": "suporte 24 horas, 7 dias por semana grátis",
         "apps": [
-            "wordpress",
-            "drupal",
-            "entre outros..."
+            {
+                "title": "aplicativos disponíveis"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "wordpress"
+                    },
+                    {
+                        "id": 2,
+                        "text": "drupal"
+                    },
+                    {
+                        "id": 3,
+                        "text": "entre outros..."
+                    }
+                ]
+            }
         ],
-        "migration": "migramos todos seus sites para nossos servidores",
+        "migrations": [
+            {
+                "title": "migração gratuita"
+            },
+            {
+                "items": [
+                    {
+                        "id": 1,
+                        "text": "migramos todos seus sites para nossos servidores"
+                    }
+                ]
+            }
+        ],
         "extra": [
-            "webmail roundcube",
-            "antispam",
-            "painel de gerencimento de dns",
-            "painel de controle web",
-            "configurações de php personalizáveis",
-            "certificado ssl grátis",
-            "transferência ilimitada"
+            {
+                "id": 1,
+                "text": "webmail roundcube"
+            },
+            {
+                "id": 2,
+                "text": "antispam"
+            },
+            {
+                "id": 3,
+                "text": "painel de gerencimento de dns"
+            },
+            {
+                "id": 4,
+                "text": "painel de controle web"
+            },
+            {
+                "id": 5,
+                "text": "configurações de php personalizáveis"
+            },
+            {
+                "id": 6,
+                "text": "certificado ssl grátis"
+            },
+            {
+                "id": 7,
+                "text": "transferência ilimitada"
+            }
         ]
     }
 ]

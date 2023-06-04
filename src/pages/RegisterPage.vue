@@ -3,9 +3,9 @@ import RegisterPlans from '../components/register/RegisterPlans.vue';
 </script>
 
 <template>
-  <div>
+  <main class="w-full p-6 items-center m-auto lg:max-w-max">
     <RegisterPlans />
-  </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>
