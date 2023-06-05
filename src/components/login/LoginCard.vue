@@ -50,7 +50,7 @@ import logo from '../../assets/logo-locaweb.svg';
     </form>
   </div>
   <p class="mt-8 text-lg font-light text-center text-gray-700">
-    Ainda não tem conta? <router-link to="/registro">
+    Ainda não tem conta? <router-link to="/planos">
       <a class="font-medium text-[#F30168] underline">Cadastre-se</a>
     </router-link>
   </p>

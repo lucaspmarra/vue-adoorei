@@ -1,5 +1,5 @@
 <script setup>
-import RegisterNavbar from '../components/register/RegisterNavbar.vue';
+import RegisterNavbar from '../components/root/RegisterNavbar.vue';
 </script>
 
 <template>

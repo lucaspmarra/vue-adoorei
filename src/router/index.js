@@ -23,7 +23,13 @@ const router = createRouter({
       component: () => import('../pages/DashboardPage.vue')
     },
     {
-      path: '/registro',
+      path: '/planos',
+      name: 'planos',
+      meta: { layout: RegisterLayout },
+      component: () => import('../pages/PlanPage.vue')
+    },
+    {
+      path: '/registro/:planId',
       name: 'registro',
       meta: { layout: RegisterLayout },
       component: () => import('../pages/RegisterPage.vue')

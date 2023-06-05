@@ -1,5 +1,5 @@
-import { defineStore } from 'pinia'
-import axios from 'axios'
+import { defineStore } from 'pinia';
+import axios from 'axios';
 
 export const useHttpStore = defineStore('http', {
   state: () => ({
@@ -8,18 +8,19 @@ export const useHttpStore = defineStore('http', {
   }),
   getters: {
     getUsers(state) {
-      return state.users
+      return state.users;
     }
   },
   actions: {
     async fetchUsers() {
       try {
-        const data = await axios.get('https://fakestoreapi.com/users')
-        console.log(data.data)
-        this.users = data.data
-      } catch (error) {
-        this.error = error
+        const data = await axios.get('https://fakestoreapi.com/users');
+        console.log(data.data);
+        this.users = data.data;
+      }
+      catch (error) {
+        this.error = error;
       }
     }
   }
-})
+});
