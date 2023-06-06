@@ -12,7 +12,3 @@ import DashboardVideo from './DashboardVideo.vue';
     </p>
   </main>
 </template>
-
-<style lang="scss" scoped>
-
-</style>

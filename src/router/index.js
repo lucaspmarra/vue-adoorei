@@ -19,7 +19,7 @@ const router = createRouter({
     {
       path: '/painel',
       name: 'painel',
-      meta: { layout: DefaultLayout },
+      meta: { layout: DefaultLayout, requiresAuth: true},
       component: () => import('../pages/DashboardPage.vue')
     },
     {
@@ -35,6 +35,18 @@ const router = createRouter({
       component: () => import('../pages/RegisterPage.vue')
     }
   ]
+});
+
+router.beforeEach((to, from, next) => {
+  const isLoggedIn = !!localStorage.getItem('token');
+
+  if (to.meta.requiresAuth && !isLoggedIn) {
+    next({ name: 'home' });
+  }
+  else {
+
+    next();
+  }
 });
 
 export default router;

@@ -9,4 +9,3 @@ import RootNavbar from '../components/root/RootNavbar.vue';
   </div>
 </template>
 
-<style lang="scss" scoped></style>

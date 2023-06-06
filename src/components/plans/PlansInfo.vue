@@ -1,18 +1,18 @@
 <script setup>
+import { ref, computed, watch } from 'vue';
+import { useRouter } from 'vue-router';
+
 import plans from './plans.json';
 import { CheckIcon } from '@heroicons/vue/24/outline';
 import { usePlanStore } from '../../stores/plan-store';
-import { ref, computed, watch } from 'vue';
-import { useRouter } from 'vue-router';
+import SmallButton from '../root/SmallButton.vue';
+
 
 const planStore = usePlanStore();
 const router = useRouter();
 
 const selectedPlan = ref(null);
-
-watch(selectedPlan, (newValue) => {
-  planStore.setSelectedPlan(newValue);
-});
+const buttonText = ref('escolher esse plano');
 
 const storedSelectedPlan = planStore.selectedPlan;
 if (storedSelectedPlan) {
@@ -29,6 +29,15 @@ const filteredPlans = computed(() => {
   }
 });
 
+const navigateToRegister = async (planId) => {
+  try {
+    await router.push({ name: 'registro', params: { planId } });
+  }
+  catch (error) {
+    console.error(error);
+  }
+};
+
 const selectPlan = async (plan) => {
   selectedPlan.value = plan.id;
   try {
@@ -39,14 +48,6 @@ const selectPlan = async (plan) => {
   }
 };
 
-const navigateToRegister = async (planId) => {
-  try {
-    await router.push({ name: 'registro', params: { planId } });
-  }
-  catch (error) {
-    console.error(error);
-  }
-};
 
 const formatPrice = (price) => {
   if (typeof price === 'number') {
@@ -59,15 +60,19 @@ const formatPrice = (price) => {
     return 'Invalid price';
   }
 };
+
+watch(selectedPlan, (newValue) => {
+  planStore.setSelectedPlan(newValue);
+});
 </script>
 
 <template>
   <section class="flex justify-center">
-    <div class="flex space-x-4">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4 md:space-x-4 ">
       <div
         v-for="plan in filteredPlans"
         :key="plan.id"
-        class="w-[300px] bg-white shadow-md rounded-lg p-4">
+        class="w-full md:w-[300px] bg-white shadow-md rounded-lg p-4 mt-4">
         <article class="text-center my-6">
           <p class="text-[#666666] text-2xl font-bold">
             {{ plan["name"] }}
@@ -97,11 +102,9 @@ const formatPrice = (price) => {
         <hr class="py-1">
 
         <article class="mt-6">
-          <button
+          <SmallButton
             @click="selectPlan(plan)"
-            class="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-[#F30168] rounded-md hover:bg-[#F30168]/80 focus:outline-none focus:bg-[#F30168]/80">
-            escolher esse plano
-          </button>
+            :button-text="buttonText" />
         </article>
 
 

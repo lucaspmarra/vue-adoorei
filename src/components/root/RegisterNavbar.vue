@@ -17,5 +17,3 @@ import logo from '../../assets/logo-locaweb.svg';
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped></style>

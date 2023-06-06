@@ -8,7 +8,3 @@ import RegisterNavbar from '../components/root/RegisterNavbar.vue';
     <RouterView />
   </div>
 </template>
-
-<style lang="scss" scoped>
-
-</style>
